@@ -46,8 +46,8 @@ function NfpDrop() {
         </header>
         <hr className="my-2 border" />
         {adress ? (
-          <p className=" pt-2 text-center text-red-400">
-            You´re logged in with wallet{adress.substring(0, 5)}...
+          <p className=" pt-2 text-center  text-sm text-rose-400">
+            You´re logged in with wallet {adress.substring(0, 5)}...
             {adress.substring(adress.length - 5)}
           </p>
         ) : (
